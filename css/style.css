@@ -116,6 +116,16 @@ input[type="submit"]:hover {
   }
 }
 
+@media screen and (prefers-reduced-motion: reduce) {
+  #greeting-sentence {
+    animation: none;
+  }
+
+  #intro-image_animation {
+    animation: none;
+  }
+}
+
 .skip {
   position: absolute;
   left: -500px;
@@ -423,12 +433,6 @@ footer {
 .skip:hover {
   color: white;
   background-color: #66b5ff;
-}
-
-@media screen and (prefers-reduced-motion: reduce) {
-  .intro_img {
-    animation: none;
-  }
 }
 
 .seattle_container {
