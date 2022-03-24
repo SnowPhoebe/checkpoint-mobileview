@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/s_p.png">
+    <link rel = "stylesheet" href = "css/html5reset.css">
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    
+    <title>Index</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <h1 class="font-effect-fire" id = "greeting-sentence">Welcome to Phoebe's page!</h1>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href = "index.html" >Homepage</a></li>
+                    <li><a href = "seattle.html">Seattle</a></li>
+                    <li><a href = "boston.html">Boston</a></li>
+                    <li><a href = "la.html">LA</a></li>
+                    <li class="active"><a href = "contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+      
+    </header>
+    <!-- Action removed for security purposes -->
+    <main>
+        <form>
+        <fieldset>
+          <legend id = "contact-form" class="font-effect-neon">Contact Form</legend>
+      
+          <div id = "first-row">
+              <i class="fa fa-user-circle-o" style="font-size:18px" class = "icon"></i>
+              <label for="name_id">First Name</label>
+              <input type="text" placeholder="Enter Your Name" id = "name_id" name="name" required>
+          </div>
+      
+          <div>
+              <i class="fa fa-user-circle-o" style="font-size:18px" class = "icon"></i>
+              <label for="name_id">Last Name</label>
+              <input type="text" placeholder="Enter Your Name" id = "name_id" name="name" required>
+          </div>
+          
+          <div>
+              <i class="fa fa-envelope" style="font-size:18px" class = "icon"></i>
+              <label for="email_id">Email Address</label>
+              <input type="email" placeholder="Enter Your Email" id = "email_id" name="email" required>
+          </div>
+          
+          <div>
+              <i class="fa fa-phone" style="font-size:18px" class = "icon"></i>
+              <label for="phone_id">Phone Number</label>
+              <input type="tel" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+          </div>
+          
+      
+          <div>
+              <i class="fa fa-commenting" style="font-size:18px" class = "icon"></i>
+              <label for="msg">Leave A Message</label>
+              <textarea placeholder="Enter your message" id = "msg" name="mesg" required></textarea><br>
+          </div>
+          
+          <div>
+              <input type="checkbox" checked="checked" name="remember" id = "cBox"> 
+              <label for ="cBox">Remember me</label>
+          </div>
+          
+          <div>
+              <input type="submit" value = "Contact Me">
+          </div>
+          
+        </fieldset>
+       </form>
+
+    </main>
+ 
+</body>
+</html>
