@@ -583,3 +583,8 @@ footer {
 .card {
   flex-basis: 350px;
 }
+
+.icon_style {
+  font-size: 10px;
+  color: red;
+}
